@@ -26,7 +26,7 @@ public class DataInputOutputTest {
 			boolean b = dis.readBoolean();
 			dis.close();
 			
-			System.out.println("numInt="+numInt+" numDouble="+numDouble+" anStr="+anStr+" bool="+b);
+			System.out.println("numInt123="+numInt+"numInt2="+numInt+"numInt3="+numInt+" numDouble="+numDouble+" anStr="+anStr+" bool="+b);
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
